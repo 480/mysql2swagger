@@ -34,13 +34,13 @@
     "ape-testing": "^1.1.6",
     "ape-tmpl": "^1.0.3",
     "ape-updating": "^1.0.1",
-    "coz": "^1.5.0"
+    "coz": "^1.5.0",
+    "mysqldesc": "git+https://github.com/480/node-mysqldesc.git"
   },
   "dependencies": {
     "argx": "^1.1.4",
     "async": "^1.4.0",
     "extend": "^3.0.0",
-    "mysql": "^2.8.0",
-    "mysqldesc": "^1.1.2"
+    "mysql": "^2.8.0"
   }
 }
