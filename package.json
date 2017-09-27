@@ -1,40 +1,28 @@
 {
-  "name": "mysqlspec",
-  "version": "1.0.6",
-  "description": "Generate JSON schema from mysql tables.",
+  "name": "mysql2swagger",
+  "version": "1.0.0",
+  "description": "Generate Swagger v2 Specification JSON schema from mysql tables.",
   "main": "lib",
-  "scripts": {
-    "build": "./ci/build.js",
-    "test": "./ci/test.js",
-    "cover": "./ci/cover.js",
-    "report": "./ci/report.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/okunishinishi/node-mysqlspec.git"
+    "url": "git+https://github.com/480/mysql2swagger.git"
   },
   "keywords": [
     "mysql",
-    "json-schema"
+    "json-schema",
+    "swagger"
   ],
   "author": {
-    "name": "Taka Okunishi",
-    "url": "http://okunishitaka.com"
+    "name": "Matthew",
+    "url": "http://github.com/480"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/okunishinishi/node-mysqlspec/issues"
+    "url": "https://github.com/480/mysql2swagger/issues"
   },
-  "homepage": "https://github.com/okunishinishi/node-mysqlspec#readme",
+  "homepage": "https://github.com/480/mysql2swagger#readme",
   "devDependencies": {
-    "ape-covering": "^1.0.8",
-    "ape-releasing": "^1.0.14",
-    "ape-reporting": "^1.0.8",
-    "ape-tasking": "^1.0.6",
-    "ape-testing": "^1.1.6",
-    "ape-tmpl": "^1.0.3",
-    "ape-updating": "^1.0.1",
-    "coz": "^1.5.0",
     "mysqldesc": "git+https://github.com/480/node-mysqldesc.git"
   },
   "dependencies": {
